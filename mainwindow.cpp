@@ -6,6 +6,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    connect(ui->leInput, SIGNAL(si_sendText(QString)), this, SLOT(sl_rcvTextFromLineEdit(QString)));
 }
 
 MainWindow::~MainWindow()
@@ -13,3 +15,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::sl_rcvTextFromLineEdit(QString s)
+{
+    qDebug() << s;
+}

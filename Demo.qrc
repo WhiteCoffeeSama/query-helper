@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>icon/align_justify_icon.png</file>
+        <file>icon/clock_watch_icon.png</file>
+        <file>icon/plus_square_icon.png</file>
+        <file>icon/README.txt</file>
+        <file>icon/rotate_ccw_icon.png</file>
+        <file>icon/search_icon.png</file>
+        <file>icon/x_icon.png</file>
+    </qresource>
+</RCC>
